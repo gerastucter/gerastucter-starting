@@ -26,8 +26,8 @@
         </a>
         <span>TikTok</span>
     </div>
-    <figure class="flex justify-center col-span-1 px-8">
-          <img href="https://res.cloudinary.com/djglhdlln/image/upload/v1688410073/Logos/TypeMainLogoHorizon_me24fw.png" alt="logo">
+    <figure class="flex justify-center col-span-1 p-2">
+          <img class="w-2/4" src="https://res.cloudinary.com/djglhdlln/image/upload/v1688410073/Logos/TypeMainLogoVertical_ivgmez.png" alt="logo">
         </figure>
     </div>
   </div>
