@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world/+page.svelte";

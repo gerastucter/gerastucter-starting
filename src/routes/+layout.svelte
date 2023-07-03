@@ -7,7 +7,6 @@
   // import { autoModeWatcher } from '@skeletonlabs/skeleton';
   
   // Import components
-  import SideBarComponent from '../utilities/components/SideBarComponent.svelte'
   import FooterComponent from  '../utilities/components/FooterComponent.svelte'
   // Skeleton imports
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
@@ -27,15 +26,43 @@
 
 
 
-<AppShell class="bg-primary-50-900-token">
-  <svelte:fragment slot="sidebarLeft">
-    {#if $page.status != 404}
-    <SideBarComponent />
-    {/if}
-  </svelte:fragment>
+<AppShell class="max-w-screen">
   <!-- Router Slot -->
-  <slot />
+  <slot class="w-full"/>
   <!-- ---- / ---- -->
+  <svelte:fragment slot="sidebarRight">
+    <nav translate="no"class="h-full w-auto px-2">
+      <ul class="flex flex-col items-center justify-around h-full">
+        <li class="p-2 textScreen">
+          <a class="flex flex-col items-center justify-center" href="#">
+            <span>T</span>
+            <span>E</span>
+            <span>R</span>
+            <span>M</span>
+            <span>S</span>
+          </a>
+        </li>
+        <li class="p-2 textScreen">
+          <a class="flex flex-col items-center justify-center" href="#">
+            <span>P</span>
+            <span>R</span>
+            <span>I</span>
+            <span>V</span>
+            <span>A</span>
+            <span>C</span>
+            <span>Y</span>
+            <span>-</span>
+            <span>P</span>
+            <span>O</span>
+            <span>L</span>
+            <span>I</span>
+            <span>C</span>
+            <span>Y</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+	</svelte:fragment>
   <svelte:fragment slot="pageFooter">
     {#if $page.status != 404}
     <FooterComponent />
@@ -43,3 +70,21 @@
   </svelte:fragment>
   <!-- (footer) -->
 </AppShell>
+
+<style type="text/css" media="all">
+
+  .textScreen {
+    animation: textToAnim 3s ease-in ;
+  }
+
+  @keyframes textToAnim {
+    from {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+</style>

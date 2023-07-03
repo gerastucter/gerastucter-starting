@@ -12,7 +12,11 @@ module.exports = {
 	darkMode: 'class',
 	content: ['./src/**/*.{html,js,svelte,ts}', join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}'),'node_modules/preline/dist/*.js',],
 	theme: {
-		extend: {},
+		extend: {
+		  backgroundImage: {
+		    'hero-synthwave-pic': "url('https://unsplash.com/pt-br/fotografias/9BWOs2ZUMZo')",
+		  }
+		},
 	},
 	plugins: [forms,typography,...skeleton(), preline, prettierPluginTailwindcss, prettierPluginSvelte],
 }
