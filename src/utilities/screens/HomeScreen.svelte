@@ -16,7 +16,7 @@
   
   <!-- Card -->
   <section id="alerts" class="p-5">
-    <div class="sticky top-[25px] bg-warning-50 border border-gray-200 rounded-md md:py-3 mt-4 p-4" role="alert">
+    <div class="sticky top-[25px] variant-filled-secondary rounded-md md:py-3 mt-4 p-4" role="alert">
       <div class="flex">
         <div class="flex-shrink-0">
           <svg class="h-4 w-4 text-warning-500 mt-0.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -37,7 +37,7 @@
       </div>
     </div>
     
-    <div class="bg-primary-50 border border-gray-200 rounded-md mt-4 p-4" role="alert">
+    <div class="variant-filled-secondary rounded-md mt-4 p-4" role="alert">
       <div class="flex">
         <div class="flex-shrink-0">
           <svg class="h-4 w-4 text-success-500 mt-0.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -63,7 +63,7 @@
     <!-- Features -->
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto text-tertiary-500">
       <!-- Title -->
-      <div  class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center backdrop-blur-lg p-6 rounded ">
+      <div  class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center variant-glass-tertiary  p-6 rounded ">
         <h2 class="text-3xl lg:text-4xl font-bold">
           <span class="font-bold ">GERASTUCTER</span> is a powerfull language learning tool for you
         </h2>
@@ -78,7 +78,7 @@
         <!-- Icon Block -->
         <div class="col-span-6 sm:col-span-4 text-center">
           <TrendingDownIcon size="40"/>
-          <div class="mt-2 sm:mt-6 backdrop-blur-lg py-3 p-1 rounded-xl">
+          <div class="mt-2 sm:mt-6 variant-glass-tertiary  py-3 p-1 rounded-xl">
             <h3 class="text-lg font-semibold">
              #Accessible# <br /> It's the keyword from Gerastucter, keep this word with you when using our application.
             </h3>
@@ -89,7 +89,7 @@
         <!-- Icon Block -->
         <div class="col-span-6 sm:col-span-4 text-center">
           <TrendingDownIcon size="40"/>
-          <div class="mt-2 sm:mt-6 backdrop-blur-lg py-3 p-1 rounded-xl">
+          <div class="mt-2 sm:mt-6 variant-glass-tertiary  py-3 p-1 rounded-xl">
             <h3 class="text-lg font-semibold">
               #Easy to use#<br /> Usability is also a great feature of Gerastucter, since users hardly have difficulty using and accessing the content they want.
             </h3>
@@ -100,7 +100,7 @@
         <!-- Icon Block -->
         <div class="col-span-6 col-start-4 sm:col-span-4 text-center">
           <TrendingDownIcon size="40"/>
-          <div class="mt-2 sm:mt-6 backdrop-blur-lg py-3 p-1 rounded-xl">
+          <div class="mt-2 sm:mt-6 variant-glass-tertiary py-3 p-1 rounded-xl">
             <h3 class="text-lg font-semibold">
               #Modern# <br /> Gerastucter also has o wide of modern and interesting content, all this content is current and optimized.
             </h3>
@@ -128,7 +128,7 @@
           src="https://res.cloudinary.com/djglhdlln/image/upload/v1688331791/Flags/flag-400_2_bifo0y.png"
           alt="English image, the USA flag">
         <br />
-        <h3 class="text-2xl p-4 bg-black">English</h3>
+        <h3 class="text-2xl p-4 variant-glass-secondary">English</h3>
       </a>
       <!-- End Col -->
       <!-- End Col -->

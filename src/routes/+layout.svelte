@@ -26,12 +26,12 @@
 
 
 
-<AppShell class="max-w-screen">
+<AppShell class="max-w-screen variant-filled-secondary">
   <!-- Router Slot -->
   <slot class="w-full"/>
   <!-- ---- / ---- -->
   <svelte:fragment slot="sidebarRight">
-    <nav translate="no"class="h-full w-auto px-2">
+    <nav translate="no" class="h-full w-auto px-2">
       <ul class="flex flex-col items-center justify-around h-full">
         <li class="p-2 textScreen">
           <a class="flex flex-col items-center justify-center" href="#">
