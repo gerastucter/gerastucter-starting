@@ -59,7 +59,7 @@
   </section>
   <!-- End Card -->
   
-  <section id="features" class="bg-primary-900 py-20 bg-fixed shadow-lg rounded-b-xl rounded-t-xl py-20">
+  <section style="box-shadow: inset -40px 0 400px black;" id="features" class="bg-primary-900 py-20 bg-fixed shadow-lg rounded-b-xl rounded-t-xl py-20">
     <!-- Features -->
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto text-tertiary-500">
       <!-- Title -->
