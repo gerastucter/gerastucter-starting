@@ -7,6 +7,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, STARTINGPOINT">
   <meta name="author" content="Gerastucter">
   <title>Start here</title>
+  <link rel="canonical" href="https://www.gerastucter.site" />
 </svelte:head>
 
 
